@@ -2,6 +2,7 @@ package com.upgrad.myntra.api.controllers;
 
 
 
+
 import com.upgrad.myntra.service.business.BrandService;
 import com.upgrad.myntra.service.business.CategoryService;
 import com.upgrad.myntra.service.business.CustomerService;
@@ -18,6 +19,7 @@ import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import com.upgrad.myntra.api.model.*;
+
 
 import java.math.BigDecimal;
 import java.util.ArrayList;
@@ -79,6 +81,7 @@ import java.util.UUID;
 	 * @return - ResponseEntity<BrandListResponse> type object along with Http status OK.
 	 */
 
+	
 
 	private BrandDetailsResponse populateBrandDetailsResponse(BrandEntity brandEntity) {
 
